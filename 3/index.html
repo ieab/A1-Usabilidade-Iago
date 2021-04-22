@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Pokemons Exemplo</title>
+    <title>Lista de Compras</title>
+    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <style>
@@ -13,28 +14,53 @@
         }
         
         li button {
-            font-size: 8px;
-            margin-left: 20px;
+            font-size: 15px;
             color: #666;
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Lista de Compras</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="conteudo">
+            <section>
+                <p>
+                    <h5>Adicione um novo produto:</h5>
+                </p>
+                <div class="row g-3">
+                    <div class="col-auto">
+                        <input class="form-control" type="text" name="item" id="produto">
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-outline-secondary" id="btn">Adicionar</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <p>
+                    <h5>Produtos adicionados na lista:</h5>
+                </p>
+                <p>
+                    <ul class="list-group col-4" id="produtos">
+                    </ul>
+                </p>
+            </section>
+        </article>
+    </main>
+    <aside>
 
-    <h1>Meus Pokemons</h1>
+    </aside>
+    <footer>
+    </footer>
 
-    <div>
-        <label for="item">Entre com um Novo Pokemon:</label>
-        <input type="text" name="item" id="item">
-        <button>Adicionar um Novo Pokemon</button>
-    </div>
-
-    <ul>
-
-    </ul>
-
-    <script>
+    <script src="script.js">
     </script>
 </body>
 
