@@ -1,0 +1,17 @@
+“Charles quer levar sua mãe idosa, Francisca, em sua loja favorita de produtos domésticos chamada: 
+“Casa e Conforto”. Ele sabe que a loja mudou de lugar dentro do shopping, mas não sabe para onde. 
+Além disso, Charles precisa encontrar um caminho adequado para sua mãe, que usa andador e não gosta 
+de elevadores. Sendo assim, ele abre o aplicativo de navegação em seu smartphone e insere o nome da 
+loja na caixa de busca. Então, duas filiais diferentes da loja no shopping são encontradas e listadas, 
+e, Charlie pede informações sobre a que fica mais próxima de sua localização atual. Um mapa do shopping 
+é exibido, mostrando sua localização atual, a localização da loja mais próxima e a rota sugerida. 
+Esse percurso mostrado, entretanto, inclui uma série de etapas inadequadas para sua mãe que é idosa e 
+tem dificuldades de locomoção. Sendo assim, ele pede que o aplicativo exiba uma rota alternativa que 
+use apenas rampas, onde, finalmente eles partem, seguindo a nova rota fornecida.” 
+
+1 - Busca de lojas pelo nome, ou pela categoria.
+2 - Lista todas as filiais da loja de acordo com a busca do usuário.
+3 - Mostrar detalhes da loja selecionada pelo usuário.
+4 - Disponilizar localização da loja no mapa do shopping.
+5 -  Mostrar rota para a loja escolhida pelo usuário de acordo com a sua localização no shopping.
+6 - Disponibilizar rota padrão e rota alternativa para pessoas com dificuldade de locomoção, dando a opção de escolha entre rota alternativa com rampas e elevadores.
